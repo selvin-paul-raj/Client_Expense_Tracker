@@ -21,7 +21,7 @@ export default function Form() {
         <h1 className='font-bold pb-4 text-xl'>Transaction</h1>
 
         <form id='form' onSubmit={handleSubmit(onSubmit)}>
-            <div className="grid gap-4 min-w-full">
+            <div className="grid gap-4 w-11/12">
                 <div className="input-group">
                     <input type="text" {...register('name')} placeholder='Sallary, House Rend, SIP' className='form-input' required/>
                 </div>
