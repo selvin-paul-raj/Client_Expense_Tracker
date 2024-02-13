@@ -23,7 +23,7 @@ export default function List() {
 
 
   return (
-    <div className="flex flex-col py-6 gap-3 w-11/12">
+    <div className="flex flex-col py-6 gap-3 ">
         <h1 className='py-4 font-bold text-xl'>History</h1>
         {Transactions}
     </div>
